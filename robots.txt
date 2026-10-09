@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bcfire119.com/sitemap.xml
