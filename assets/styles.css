@@ -254,6 +254,10 @@ img {
   padding: 80px 0 100px;
   background-color: var(--bg-white);
   border-bottom: 1px solid var(--border-light);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), url('images/hero-bg-watermark.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-inner {
