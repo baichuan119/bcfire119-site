@@ -160,4 +160,16 @@
       form.reset();
     });
   }
+
+  // RFQ Form Submission (Index Page)
+  const rfqForm = document.getElementById('rfqForm');
+  const rfqSuccess = document.getElementById('rfqSuccess');
+  if (rfqForm && rfqSuccess) {
+    rfqForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      rfqForm.style.display = 'none';
+      rfqSuccess.style.display = 'block';
+      rfqForm.reset();
+    });
+  }
 })();
