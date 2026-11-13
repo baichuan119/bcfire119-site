@@ -1628,3 +1628,34 @@ img {
     padding: 24px;
   }
 }
+
+
+/* Video Showcase Section */
+.video-section {
+  padding: 100px 0;
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.video-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--border-dark);
+  transition: var(--transition);
+}
+
+.video-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 35px 70px rgba(225, 37, 27, 0.1);
+  border-color: var(--primary);
+}
+
+.promo-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
